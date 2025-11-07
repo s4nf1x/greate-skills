@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <title></title>
-<script defer src="js/bundle.js"></script>
+  <script defer src="js/bundle.js"></script>
   <link href="css/style.min.css" rel="stylesheet">
 </head>
 <body>
@@ -19,8 +19,13 @@
 <header class="header">
   <div class="header-top">
     <div class="container">
+      <button class="mobile-menu-button">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </button>
       <a href="/" class="logo">
-        ГРЕЙТСКИЛЛЗ
+        <img src="./img/logo.svg" alt="">
       </a>
       <div class="header-top-left">
         <a href="#" class="header-visible">Версия для слабовидящих</a>
@@ -33,9 +38,10 @@
   </div>
   <div class="container">
     <nav class="header-nav">
+      <button class="close-menu-button"></button>
       <ul class="main-menu">
         <li>
-          <a href="/greate-skills/">Главная</a>
+          <a href="/">Главная</a>
         </li>
         <li class="menu-item-has-children documents">
           <a href="#">СВЕДЕния об организации</a>
@@ -57,7 +63,7 @@
             </li>
           </ul>
         </li>
-        <li class="menu-item-has-children">
+        <li class="menu-item-has-children master-classes">
           <a href="#">Мастер-Классы</a>
           <ul>
             <li>
@@ -194,7 +200,7 @@
             <a href="tel:74957446258">+7 (495) 744-62-58</a>
             <a href="mailto:info@great-skills.ru">info@great-skills.ru</a>
           </div>
-          <div class="footer-copy">
+          <div class="footer-copy footer-copy-pc">
             <p>© Все права защищены 2025</p>
           </div>
         </div>
@@ -228,6 +234,9 @@
               </li>
             </ul>
           </nav>
+          <div class="footer-copy footer-copy-mobile">
+            <p>© Все права защищены 2025</p>
+          </div>
         </div>
       </div>
     </div>
